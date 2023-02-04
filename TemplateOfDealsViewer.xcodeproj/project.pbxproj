@@ -72,6 +72,7 @@
 		151E70552940D970000F9ED0 /* TemplateOfDealsViewer */ = {
 			isa = PBXGroup;
 			children = (
+				6640D339298E61DC00DB9E0D /* Cells */,
 				662D40C0298D1B4000265B6F /* Extensions */,
 				151E70562940D970000F9ED0 /* AppDelegate.swift */,
 				662D40BF298D12D000265B6F /* View */,
@@ -81,10 +82,6 @@
 				151E70612940D971000F9ED0 /* LaunchScreen.storyboard */,
 				151E70642940D971000F9ED0 /* Info.plist */,
 				151E706A2940D98C000F9ED0 /* Server.swift */,
-				151E706C2941F990000F9ED0 /* DealCell.xib */,
-				151E706E2941FC75000F9ED0 /* DealCell.swift */,
-				155E2E072942CF470094E5DA /* HeaderCell.swift */,
-				155E2E062942CF470094E5DA /* HeaderCell.xib */,
 			);
 			path = TemplateOfDealsViewer;
 			sourceTree = "<group>";
@@ -104,6 +101,17 @@
 				662D40C1298D1B5100265B6F /* DateFormatter.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6640D339298E61DC00DB9E0D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				151E706C2941F990000F9ED0 /* DealCell.xib */,
+				151E706E2941FC75000F9ED0 /* DealCell.swift */,
+				155E2E072942CF470094E5DA /* HeaderCell.swift */,
+				155E2E062942CF470094E5DA /* HeaderCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
